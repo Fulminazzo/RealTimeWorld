@@ -22,9 +22,9 @@ weather: "&8- &7Tempo: &e%weather%"
 info: "&8- &7%type%: &e%time%&7, &e%time-12%&7, &e%timezone%&7, &e%ticks% tick&7"
 set-city: "&7Impostata correttamente nuova città &d%city% &7per il mondo \"&2%world%&7\". Ricordati di ricaricare il plugin!"
 
-sunset: "Alba"
+sunset: "Tramonto"
 noon: "Mezzogiorno"
-sunrise: "Tramonto"
+sunrise: "Alba"
 midnight: "Mezzanotte"
 
 no-world-specified: "&cNon hai specificato un mondo."

@@ -1,0 +1,35 @@
+#########################################################################
+#                    messages.yml RealTimeWorld file                    #
+#########################################################################
+
+prefix: "%plugin-name% &8» &r"
+plugin-name: "&cReal&bTime&3World"
+
+usage: "&7Usage: "
+plugin-activated: "%plugin-name% &7is now &aactivated &7and &6ready &7to execute commands."
+plugin-not-activated: "%plugin-name% &cis not activated yet. Please wait for full activation before doing anything."
+not-enough-arguments: "&cYou did not specify enough arguments."
+
+starting-test: "&7Starting testing time for world \"&2%world%&7\"."
+stopped-testing: "&7Stopped testing time for world \"&2%world%&7\"."
+finished-testing: "&7Finished testing time for world \"&2%world%&7\"."
+starting-reload: "&eStarting &7reload &7of %plugin-name%&7."
+completed-reload: "&aCompleted &7reload &7of %plugin-name%&7."
+current-world-time: "&7Time in &2%world%&7: &e%time%&7, &e%time-12%&7, &e%timezone%&7, &e%ticks% ticks&7."
+world-info: "&7Infos for world \"&2%world%&7\":"
+city: "&8- &7City: &e%city%"
+weather: "&8- &7Weather: &e%weather%"
+info: "&8- &7%type%: &e%time%&7, &e%time-12%&7, &e%timezone%&7, &e%ticks% ticks&7"
+set-city: "&7Successfully set new city &d%city% &7for world \"&2%world%&7\". Remember to reload the plugin!"
+
+sunset: "Sunset"
+noon: "Noon"
+sunrise: "Sunrise"
+midnight: "Midnight"
+
+no-world-specified: "&cYou did not specify a world."
+world-already-testing: "&cWorld &4%world% &cis already being tested. Please wait for the previous test to finish."
+world-not-set: "&cWorld &4%world% &cnot found in the config.yml file."
+world-not-tested: "&cWorld &4%world% &cis not being tested."
+world-not-found: "&cWorld &4%world% &cnot found. Are you sure it is the right name?"
+type-not-found: "&cType &4%type% &cwas not found."

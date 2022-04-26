@@ -1,0 +1,71 @@
+########################################################
+#               RealTimeWorld config.yml               #
+########################################################
+
+# How many times in seconds the plugin should update the time (lower is more accurate,
+# but also more resource demanding).
+update-time: 1.0
+
+# This value in seconds shows how much time should pass before looking up online the
+# weather of a city (higher is better, but less accurate).
+cities-update-time: 600.0
+
+# Specify how many seconds should pass every 1/20 of a second when testing a world.
+# Basically, setting this value higher will make the test faster, but the
+# sun teleports will be much more visible.
+testing-speed: 15
+
+# When a user types any RealTimeWorld command too early, the plugin will tell her/him
+# that it is still in loading state. If you want to notify the users when it is
+# available again, you can set this option to true.
+notify-users: true
+
+# If the sync-world option is set to true, the world real time will be set to the player
+# time. This means that executing commands such as Essentials "/time" will show that the
+# world time is the same as in the real world. However, this might cause some bugs and
+# strange behaviours from some plugins. If you encounter problems, it is advised to keep
+# this off.
+sync-world: false
+
+# Since in Minecraft there are only two possible states of the weather (sunny or rainy)
+# by default the plugin uses some keywords such as "cloudy" to force a storm in a
+# certain world. If you want to control this behaviour manually, here is the
+# related section.
+weather-options:
+  rain:
+    - "rain"
+  snow:
+    - "snow"
+    - "freeze"
+
+# This section defines how the world should behave when the plugin is enabled. You can
+# add as many worlds as you want, as long as they respect the given format.
+# <world-name>: the world name (case-insensitive)
+# enabled: whether to enable or not RealTime for this world.
+# enable-season: whether to set sunrise and sunset according to local times.
+# enable-moon-phases: if enabled, the moon will respect the current phase.
+# enable-weather: if enabled, the world weather will be set to the location one
+#                 (only sun or rain available).
+# location: if you choose to add only the city name the plugin will lookup for itself
+#           the city latitude and longitude; otherwise, you may want to enter manually
+#           those values using the format:
+# location:
+#   city: <city-name>
+#   latitude: <latitude>
+#   longitude: <longitude>
+worlds:
+  <world-name>:
+    enabled: false
+    enable-seasons: true
+    enable-moon-phases: true
+    enable-weather: true
+    location: London
+  example-world:
+    enabled: false
+    enable-seasons: false
+    enable-moon-phases: false
+    enable-weather: false
+    location:
+      city: London
+      latitude: 51.5286416
+      longitude: -0.1015987

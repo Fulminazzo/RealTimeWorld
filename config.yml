@@ -34,9 +34,9 @@ sync-world: false
 weather-options:
   rain:
     - "rain"
-  snow:
-    - "snow"
-    - "freeze"
+  sun:
+    - "sun"
+    - "clear"
 
 # This section defines how the world should behave when the plugin is enabled. You can
 # add as many worlds as you want, as long as they respect the given format.

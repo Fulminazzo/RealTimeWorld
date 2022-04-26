@@ -1,7 +1,7 @@
 # LightFight
 
 > Sei italiano?
-> Ricordati che il plugin mette a disposizione messaggi gia' tradotti [qui](https://github.com/Fulminazzo/RealTimeWorld/tree/main/italian)!
+> Ricordati che il plugin mette a disposizione messaggi gia' tradotti [qui](https://github.com/Fulminazzo/RealTimeWorld/tree/master/italian)!
 
 RealTimeWorld is a custom plugin designed to synchronize the Minecraft time with the real time. It can reproduce the time, weather and moon phases of most of the cities in the world, and it is fully compatible with older versions of Minecraft. Also, **WorldGuard** is supported, meaning that you can specify more regions in a single world and have different weathers!
 
@@ -11,14 +11,14 @@ RealTimeWorld uses Google to lookup for information about a city. I decided to u
 
 ## Config
 
-The [Configuration File](https://github.com/Fulminazzo/RealTimeWorld/tree/main/config.yml) is crucial to modify the plugin behaviour. In there you will find all the main features of the plugin that control how it behaves.
+The [Configuration File](https://github.com/Fulminazzo/RealTimeWorld/tree/master/config.yml) is crucial to modify the plugin behaviour. In there you will find all the main features of the plugin that control how it behaves.
 
 ## Commands
 
 
 ## Messages
 
-RealTimeWorld also has a full list of messages that can be edited in the [messages file](https://github.com/Fulminazzo/RealTimeWorld/tree/main/messages.yml).
+RealTimeWorld also has a full list of messages that can be edited in the [messages file](https://github.com/Fulminazzo/RealTimeWorld/tree/master/messages.yml).
 
 ## Integrations
 

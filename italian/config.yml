@@ -3,26 +3,26 @@
 ########################################################
 
 # Quante volte in secondi il plugin dovrebbe aggiornare il tempo (valori bassi sono
-# piu' accurati, ma richiedono maggiori risorse).
+# più accurati, ma richiedono maggiori risorse).
 update-time: 1.0
 
 # Questo valore in secondi mostra quanto tempo dovrebbe passare prima di cercare online
-# il meteo di una citta' (valori alti sono migliori, ma meno accurati).
+# il meteo di una città (valori alti sono migliori, ma meno accurati).
 cities-update-time: 600.0
 
 # Specifica quanti secondi dovrebbero passare ogni 1/20 di secondo quando si testa un mondo.
-# In poche parole, impostare questo valore a un numero alto rendera' il test piu' veloce,
-# ma i teletrasporti del sole saranno molto piu' visibili.
+# In poche parole, impostare questo valore a un numero alto renderà il test più veloce,
+# ma i teletrasporti del sole saranno molto più visibili.
 testing-speed: 15
 
-# Quando un utente digita un comando di RealTimeWorld troppo presto, il plugin lo/la notifichera'
-# che si trova ancora in uno stato di caricamento. Se si desidera informare gli utenti quando sara'
+# Quando un utente digita un comando di RealTimeWorld troppo presto, il plugin lo/la notificherà
+# che si trova ancora in uno stato di caricamento. Se si desidera informare gli utenti quando sarà
 # nuovamente disponibile, è possibile impostare questa opzione su true.
 notify-users: true
 
-# Se l'opzione sync-world e' impostata su true, il tempo reale del mondo non sara' impostato solo
-# per il player. Cio' significa che eseguendo comandi come quello di Essentials "/time" si avra' che
-# il tempo del mondo sara' lo stesso del tempo reale. Tuttavia, questo potrebbe causare dei bug e
+# Se l'opzione sync-world è impostata su true, il tempo reale del mondo non sarà impostato solo
+# per il player. Ciò significa che eseguendo comandi come quello di Essentials "/time" si avrà che
+# il tempo del mondo sarà lo stesso del tempo reale. Tuttavia, questo potrebbe causare dei bug e
 # comportamenti inaspettati per alcuni plugin. Se si incontrano degli errori, è consigliato
 # disattivare questa impostazione.
 sync-world: false
@@ -37,16 +37,16 @@ weather-options:
     - "sun"
     - "clear"
 
-# Questa sezione definisce come il mondo dovrebbe comportarsi quando il plugin e' abilitato.
-# E' possibile aggiungere tanti mondi quanti se ne desidera, a patto che venga rispettato il
+# Questa sezione definisce come il mondo dovrebbe comportarsi quando il plugin è abilitato.
+# è possibile aggiungere tanti mondi quanti se ne desidera, a patto che venga rispettato il
 # corretto formato.
 # <world-name>: il nome del mondo (case-insensitive)
 # enabled: impostare su true per abilitare, altrimenti false per disabilitare RealTime per questo mondo.
 # enable-season: impostare su true per impostare alba e tramonto secondo i tempi locali.
 # enable-moon-phases: abilitare per seguire le fasi lunari reali.
 # enable-weather: abilitare per impostare il tempo atmosferico (solo soleggiato o piovoso disponibili).
-# location: se si decide di aggiungere il nome di una citta' il plugin cerchera'
-#           la sua latitudine e la sua longitudine; altrimenti, e' possibile inserire manualmente
+# location: se si decide di aggiungere il nome di una città il plugin cercherà
+#           la sua latitudine e la sua longitudine; altrimenti, è possibile inserire manualmente
 #           questi valori usando il formato:
 # location:
 #   city: <nome-città'>

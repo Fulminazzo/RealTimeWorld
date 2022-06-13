@@ -1,4 +1,4 @@
-# LightFight
+# RealTimeWorld
 
 > Sei italiano?
 > Ricordati che il plugin mette a disposizione messaggi gia' tradotti [qui](https://github.com/Fulminazzo/RealTimeWorld/tree/master/italian)!
